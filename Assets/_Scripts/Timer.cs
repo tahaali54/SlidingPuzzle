@@ -10,7 +10,7 @@ public class Timer : MonoBehaviour {
 	void Update ()
 	{
 		t -= Time.deltaTime;
-		timer.text = Mathf.RoundToInt(t).ToString();
+		timer.text = Mathf.RoundToInt (t).ToString();
 	}
 
 
