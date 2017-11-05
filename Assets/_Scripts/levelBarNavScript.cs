@@ -1,12 +1,18 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class levelBarNavScript : MonoBehaviour {
 
 	public GameObject twoXtwo, threeXthree, fourXfour;
 	public GameObject help;
+    public Button focusedButton;
 
-	public void showLevels (string bName)
+    void Start()
+    {
+        focusedButton.Select();
+    }
+    public void showLevels (string bName)
 	{
 		SoundEffectsHelper.Instance.MakeButtonClickSound ();
 		if (bName == "2x2") 

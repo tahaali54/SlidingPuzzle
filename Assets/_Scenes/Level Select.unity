@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.4468885, g: 0.4919445, b: 0.54903805, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -177,7 +177,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Worms
+  m_Text: Angry Birds
 --- !u!222 &59664328
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -331,7 +331,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Jetpack Joyride
+  m_Text: Monument Valley
 --- !u!222 &245273448
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1160,6 +1160,7 @@ MonoBehaviour:
   threeXthree: {fileID: 1477775273}
   fourXfour: {fileID: 856479447}
   help: {fileID: 695924577}
+  focusedButton: {fileID: 1893195715}
 --- !u!1 &623645236
 GameObject:
   m_ObjectHideFlags: 0
@@ -3603,7 +3604,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Angry Birds
+  m_Text: Jetpack Joyride
 --- !u!222 &1576454065
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3877,9 +3878,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 010145a2082ad8d4489f6cc777b30d3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelVar1: Level 1
-  levelVar2: Level 2
-  levelVar3: Level 3
+  levelVar1: Level 3
+  levelVar2: Level 1
+  levelVar3: Level 2
 --- !u!1 &1885388620
 GameObject:
   m_ObjectHideFlags: 0

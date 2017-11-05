@@ -6,7 +6,7 @@ public class Timer : MonoBehaviour {
 
     public Text timer;
     private float t = 90;
-    private void Start()
+    void Start()
     {
         t = string.IsNullOrEmpty(timer.text) ? 90 : float.Parse(timer.text);
     }
@@ -14,9 +14,15 @@ public class Timer : MonoBehaviour {
 
 	void Update ()
 	{
-		t -= Time.deltaTime;
-		timer.text = Mathf.RoundToInt (t).ToString();
-	}
+        if (timer.text != "0")
+            DecrementTime();
+    }
+
+    private void DecrementTime()
+    {
+        t -= Time.deltaTime;
+        timer.text = Mathf.RoundToInt(t).ToString();
+    }
 
 
 }

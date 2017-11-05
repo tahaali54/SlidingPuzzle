@@ -94,7 +94,11 @@ public class gameManagerScript : MonoBehaviour {
 			}
 		}
 		if (counter == (orignalImgPlaces.Length))
-			EndPannel.SetActive (true);
+        {
+            EndPannel.SetActive(true);
+            Time.timeScale = 0;
+        }
+			
 		else 
 		{
 			EndPannel.SetActive (false);
