@@ -12,7 +12,7 @@ public class slidingScript : MonoBehaviour {
 //		print(this.gameObject.name + " was clicked " + Mathf.FloorToInt(Vector3.Distance(transform.position,emptySlot.position)));
 
 		//print(this.gameObject.name + " was clicked " + Vector3.Distance(transform.position,emptySlot.position));
-		if(Mathf.RoundToInt(Vector3.Distance(transform.position,emptySlot.position)+0.1f)==1 ){
+		if(Mathf.RoundToInt(Vector3.Distance(transform.position,emptySlot.position)+0.1f)==1 && gameManagerScript.Instance.solved == false){
 
 			SoundEffectsHelper.Instance.MakeTileSlideSound();
 

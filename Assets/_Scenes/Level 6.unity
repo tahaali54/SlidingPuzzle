@@ -1542,6 +1542,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: {fileID: 294731306}
+  complete: 0
 --- !u!4 &898056102
 Transform:
   m_ObjectHideFlags: 0
@@ -3067,6 +3068,7 @@ MonoBehaviour:
   - {fileID: 480237299}
   - {fileID: 1397689998}
   EndPannel: {fileID: 1578724351}
+  solved: 0
 --- !u!1 &2015080591
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,10 +7,20 @@ public class gameManagerScript : MonoBehaviour {
 	private Vector3[] tempImgPostions;
 	private Vector3[] origImgPostions;
 	public GameObject EndPannel;
+    public bool solved = false;
 
-	void Start () 
+    public static gameManagerScript Instance;
+
+    void Start () 
 	{
-		int len = orignalImgPlaces.Length;
+        // Register the singleton
+        if (Instance != null)
+        {
+            Debug.LogError("Multiple instances of Timer!");
+        }
+        Instance = this;
+
+        int len = orignalImgPlaces.Length;
 		tempImgPostions = new Vector3[len];
 		origImgPostions = new Vector3[len];
 
@@ -96,7 +106,8 @@ public class gameManagerScript : MonoBehaviour {
 		if (counter == (orignalImgPlaces.Length))
         {
             EndPannel.SetActive(true);
-            Time.timeScale = 0;
+            Timer.Instance.complete = true;
+            solved = true;
         }
 			
 		else 

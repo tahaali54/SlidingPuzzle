@@ -1254,6 +1254,23 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 22443830, guid: 6739b13e1ddb18a47b142d037b289baa, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11459678, guid: 6739b13e1ddb18a47b142d037b289baa, type: 2}
+      propertyPath: m_FontData.m_FontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11459678, guid: 6739b13e1ddb18a47b142d037b289baa, type: 2}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 345326e2ded618e438afb706abe6d60c,
+        type: 3}
+    - target: {fileID: 126090, guid: 6739b13e1ddb18a47b142d037b289baa, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6739b13e1ddb18a47b142d037b289baa, type: 2}
   m_IsPrefabParent: 0
@@ -2009,6 +2026,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: {fileID: 294731306}
+  complete: 0
 --- !u!4 &898056102
 Transform:
   m_ObjectHideFlags: 0
