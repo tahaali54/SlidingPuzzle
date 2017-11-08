@@ -2291,9 +2291,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 010145a2082ad8d4489f6cc777b30d3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelVar1: Level 8
-  levelVar2: Level 9
-  levelVar3: Level 7
+  levelVar1: Level 7
+  levelVar2: Level 8
+  levelVar3: Level 9
 --- !u!1 &965722436
 GameObject:
   m_ObjectHideFlags: 0
@@ -3878,9 +3878,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 010145a2082ad8d4489f6cc777b30d3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelVar1: Level 3
-  levelVar2: Level 1
-  levelVar3: Level 2
+  levelVar1: Level 1
+  levelVar2: Level 2
+  levelVar3: Level 3
 --- !u!1 &1885388620
 GameObject:
   m_ObjectHideFlags: 0
