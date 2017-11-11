@@ -25,6 +25,13 @@ public class Timer : MonoBehaviour {
 	{
         if (timer.text != "0" && complete == false)
             DecrementTime();
+        if (timer.text == "0")
+        {
+            gameManagerScript.Instance.timeEndText.text = "Times up!";
+            gameManagerScript.Instance.EndPannel.SetActive(true);
+            gameManagerScript.Instance.solved = true;
+        }
+
     }
 
     private void DecrementTime()

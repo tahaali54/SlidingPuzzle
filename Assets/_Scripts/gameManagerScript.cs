@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class gameManagerScript : MonoBehaviour {
 
@@ -7,6 +8,7 @@ public class gameManagerScript : MonoBehaviour {
 	private Vector3[] tempImgPostions;
 	private Vector3[] origImgPostions;
 	public GameObject EndPannel;
+    public Text timeEndText;
     public bool solved = false;
 
     public static gameManagerScript Instance;

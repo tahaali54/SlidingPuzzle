@@ -591,6 +591,8 @@ MonoBehaviour:
   - {fileID: 480237299}
   - {fileID: 1397689998}
   EndPannel: {fileID: 1956810584}
+  timeEndText: {fileID: 514147832}
+  solved: 0
 --- !u!1 &504698582
 GameObject:
   m_ObjectHideFlags: 0
@@ -1261,6 +1263,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6739b13e1ddb18a47b142d037b289baa, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &514147832 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11459678, guid: 6739b13e1ddb18a47b142d037b289baa,
+    type: 2}
+  m_PrefabInternal: {fileID: 514147831}
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 --- !u!1 &582028989
 GameObject:
   m_ObjectHideFlags: 0
@@ -2013,6 +2021,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: {fileID: 294731306}
+  complete: 0
 --- !u!4 &898056102
 Transform:
   m_ObjectHideFlags: 0
@@ -3173,6 +3182,8 @@ MonoBehaviour:
   - {fileID: 865305429}
   - {fileID: 1449857573}
   EndPannel: {fileID: 0}
+  timeEndText: {fileID: 0}
+  solved: 0
 --- !u!1 &1956810584 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 126090, guid: 6739b13e1ddb18a47b142d037b289baa, type: 2}
