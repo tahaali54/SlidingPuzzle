@@ -320,6 +320,10 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11468562, guid: 54a04e385466bba43ba1fac83e84f93c, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 22490618, guid: 54a04e385466bba43ba1fac83e84f93c, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -597,6 +601,26 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11468562, guid: 54a04e385466bba43ba1fac83e84f93c, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11468562, guid: 54a04e385466bba43ba1fac83e84f93c, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11468562, guid: 54a04e385466bba43ba1fac83e84f93c, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1162684675}
+    - target: {fileID: 11468562, guid: 54a04e385466bba43ba1fac83e84f93c, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: toggleSound
+      objectReference: {fileID: 0}
+    - target: {fileID: 11468562, guid: 54a04e385466bba43ba1fac83e84f93c, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11490616, guid: 54a04e385466bba43ba1fac83e84f93c, type: 2}
     - {fileID: 11406168, guid: 54a04e385466bba43ba1fac83e84f93c, type: 2}
@@ -712,6 +736,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadLevelVar1: Level Select
+--- !u!1 &1162684673 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 129872, guid: 54a04e385466bba43ba1fac83e84f93c, type: 2}
+  m_PrefabInternal: {fileID: 714270049}
+--- !u!114 &1162684675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1162684673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f2cc27428a4d94883d56204eaa9904, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MUSIC_ICON: {fileID: 1162684673}
+  CanMute: 1
+  skin1: {fileID: 21300000, guid: 0d2475621a31ad6408b400a5d4e38143, type: 3}
+  skin2: {fileID: 21300000, guid: 964397431a8313f4eaa5b5189765ae43, type: 3}
 --- !u!1 &1456972124
 GameObject:
   m_ObjectHideFlags: 0

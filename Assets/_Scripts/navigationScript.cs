@@ -17,7 +17,6 @@ public class navigationScript : MonoBehaviour {
 	public void navigateToExit()
 	{
 		StartCoroutine(navigateToExit2());
-
 	}
 
 	IEnumerator navigateToNextLevel2() {
