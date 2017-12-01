@@ -23,7 +23,7 @@ public class MusicControl : MonoBehaviour
         {
             AudioListener.pause = true;
             MUSIC_ICON.GetComponent<Image>().sprite = skin1;
-            CanMute = false;
+            CanMute = false;            
         }
         else
         {

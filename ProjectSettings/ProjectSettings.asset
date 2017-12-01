@@ -14,7 +14,7 @@ PlayerSettings:
   productName: Sliding Puzzle
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
-  m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
+  m_SplashScreenBackgroundColor: {r: 0.10588236, g: 0.5803922, b: 0.5803922, a: 1}
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 1
   m_SplashScreenOverlayOpacity: 1
@@ -237,7 +237,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 6cd7964fa19266a458fce0bfb282f6ac, type: 3}
+      m_Icon: {fileID: 2800000, guid: 691f08d6f7a582546b166c0d62bc00f1, type: 3}
       m_Width: 128
       m_Height: 128
   m_BuildTargetBatching: []

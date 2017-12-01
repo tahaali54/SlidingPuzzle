@@ -4,7 +4,9 @@ using UnityEngine.UI;
 
 public class gameManagerScript : MonoBehaviour {
 
-	public GameObject[] orignalImgPlaces = new GameObject[16];
+    public GameObject ExitButton;
+    public GameObject NextButton;
+    public GameObject[] orignalImgPlaces = new GameObject[16];
 	private Vector3[] tempImgPostions;
 	private Vector3[] origImgPostions;
 	public GameObject EndPannel;
@@ -15,6 +17,7 @@ public class gameManagerScript : MonoBehaviour {
 
     void Start () 
 	{
+        solved = false;
         // Register the singleton
         if (Instance != null)
         {
@@ -111,11 +114,15 @@ public class gameManagerScript : MonoBehaviour {
             Timer.Instance.complete = true;
             solved = true;
         }
-			
 		else 
 		{
 			EndPannel.SetActive (false);
 			counter = 0;
 		}
+        if(solved && Application.loadedLevelName != "Level 9")
+        {
+            ExitButton.SetActive(false);
+            NextButton.SetActive(true);
+        }
 	}
 }

@@ -414,7 +414,7 @@ Prefab:
       objectReference: {fileID: 1456972125}
     - target: {fileID: 11454326, guid: 54a04e385466bba43ba1fac83e84f93c, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: navigateToNextLevel
+      value: resumeLevel
       objectReference: {fileID: 0}
     - target: {fileID: 11454326, guid: 54a04e385466bba43ba1fac83e84f93c, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -620,6 +620,14 @@ Prefab:
     - target: {fileID: 11468562, guid: 54a04e385466bba43ba1fac83e84f93c, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11468562, guid: 54a04e385466bba43ba1fac83e84f93c, type: 2}
+      propertyPath: m_Navigation.m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11467128, guid: 54a04e385466bba43ba1fac83e84f93c, type: 2}
+      propertyPath: m_Navigation.m_Mode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11490616, guid: 54a04e385466bba43ba1fac83e84f93c, type: 2}
