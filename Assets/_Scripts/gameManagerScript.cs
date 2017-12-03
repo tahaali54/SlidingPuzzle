@@ -116,10 +116,9 @@ public class gameManagerScript : MonoBehaviour {
         }
 		else 
 		{
-			EndPannel.SetActive (false);
 			counter = 0;
 		}
-        if(solved && Application.loadedLevelName != "Level 9")
+        if(solved && Application.loadedLevelName != "Level 9" && Timer.Instance.timer.text != "0")
         {
             ExitButton.SetActive(false);
             NextButton.SetActive(true);
